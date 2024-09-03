@@ -1,0 +1,31 @@
+.add-item-page {
+    padding: 20px;
+  }
+  
+  .add-item-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .add-item-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-item-page label {
+    margin-bottom: 10px;
+  }
+  
+  .add-item-page input {
+    margin-top: 5px;
+    padding: 8px;
+  }
+  
+  .add-item-page button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

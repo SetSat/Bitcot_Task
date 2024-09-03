@@ -1,0 +1,71 @@
+.app {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 8px;
+  width: 200px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  flex: 1;
+}
+
+.item-id,
+.item-name,
+.item-contact,
+.item-email {
+  margin: 2px 0;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4caf50;
+  font-size: 20px;
+  margin-left: 8px;  
+}
+
+.icon-button:hover {
+  color: #45a049;
+}
